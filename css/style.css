@@ -1,0 +1,32 @@
+@import url(https://fonts.googleapis.com/css?family=Elsie+Swash+Caps:400,900);
+@import url(https://fonts.googleapis.com/css?family=Clicker+Script);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Vollkorn);
+
+
+/* this is a comment */
+/* selector {
+property: value;
+}
+
+ type selector
+*/
+
+p {
+  color: orange;
+  font-size: 1em;
+  line-height: 1.5em;
+  font-family: vollkorn;
+}
+
+figcaption{/*
+  font-weight: normal;
+  font-size: .75em;
+  line-height: 1.5em;
+  font-family: Georgia;*/
+  font: normal .75em/1.5em Georgia;
+  color: ffff00;
+  text-align: right;
+}
+
+/* class selector applied to as many elements as you like */
