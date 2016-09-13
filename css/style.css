@@ -30,3 +30,16 @@ figcaption{/*
 }
 
 /* class selector applied to as many elements as you like */
+.milk-text {/*select elements with class="milk-text" */
+  font: bold 2.6em 'Elsie Swash Caps', cursive;
+  color: white;
+  text-shadow: 0 2px 3px #000;
+}
+
+/*id selector (apply to one element per page) */
+#logo{/* select elements with id="logo" */
+background-color: aqua;
+}
+
+/*descendant selector*/
+/*psuedo selector*/
