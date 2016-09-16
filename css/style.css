@@ -36,6 +36,10 @@ figcaption{/*
   text-shadow: 0 2px 3px #000;
 }
 
+.show-text {
+  font: bold 5.6em 'Open Sans', cursive;
+  color:red;
+}
 /*id selector (apply to one element per page) */
 #logo{/* select elements with id="logo" */
 background-color: aqua;
