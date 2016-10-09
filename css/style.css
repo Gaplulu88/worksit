@@ -45,6 +45,7 @@ figcaption{/*
 .milk-text {/*select elements with class="milk-text" */
   font: bold 5.6em 'vollkorn', cursive;
   color: red;
+	text-align: center;
 }
 
 .show-text {
@@ -53,10 +54,13 @@ figcaption{/*
 }
 /*id selector (apply to one element per page) */
 #logo{/* select elements with id="logo" */
-background-color: yellow;
+background-color: blue;
 padding: 85px 0 25px;
 }
 
+ body {
+	 background: url(/Users/greg/.atom/code/labs/worksit/images/tileable_wood_texture.png);
+ }
 
 
 /*descendant selector*/
