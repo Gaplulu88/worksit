@@ -54,11 +54,11 @@ p {
 	padding-right: 200px;
 }
 
-.hello {
+s {
 	color: black;
-	font-size: 1.0em;
-	line-height: 1.0em;
-  font-family: 'Open+Sans';
+	font-size: 1.75em;
+	line-height: 1.25em;
+	font-family: 'Clicker+Script';
 }
 
 figcaption{/*
@@ -74,10 +74,17 @@ figcaption{/*
 /* class selector applied to as many elements as you like */
 .milk-text {/*select elements with class="milk-text" */
   font: bold 4.6em 'Elsie Swash Caps', cursive;
-  color: red;
+  color: royalblue;
 	text-align: left;
-	margin-top: 100px;
-	margin-bottom: 5px;
+	margin-top: 75px;
+	margin-bottom: -0px;}
+
+.milk-bone {/*select elements with class="milk-text" */
+	  font: bold 4.6em 'Elsie Swash Caps', cursive;
+	  color: royalblue;
+		text-align: left;
+		margin-top: 75px;
+		margin-bottom: 100px;
 	}
 
 .show-text {
@@ -90,19 +97,53 @@ figcaption{/*
 	padding-right: 70px;
 }
 
+.cat-text{
+	margin: 0 0 -250px;
+	font-size: 20px;
+	font-style: italic;
+}
+
+.dog-text{
+	margin: 0 0 -550px 0;
+	font-size: 20px;
+	font-style: italic;
+}
+
+.hello {
+		color: black;
+		font-size: 1.50em;
+		line-height: 1.25em;
+	  font-family: 'Vollkorn';
+		padding-bottom: -400px 0px;
+	 }
+	 .wrapper2 {
+	   margin: 0 auto;
+	   width: 60%;
+	   padding-bottom: 40px;
+	 }
+
+#big {
+	padding: 25px 100px;
+}
 /*id selector (apply to one element per page) */
 #logo{/* select elements with id="logo" */
 padding: 85px 0 25px;
 }
+#content{
+  margin-top: -10em;
+	padding: 20px;
+  background: rgba(255,255,255,.85);
+}
 
-	body.space {
+
+ body.space {
 	background-color: deepskyblue;
  }
  body.about {
 	 background: url(/Users/greg/.atom/code/labs/worksit/images/IMG_9676.jpg);
  }
  body.contact {
-	 background: mediumseagreen;
+	 background: orange;
  }
  body.bookings {
 	 background: yellow;
@@ -123,7 +164,7 @@ padding: 85px 0 25px;
  }
 
  #nav_bar nav {
-	 border-left: 1px solid #ccc;
+	 border-left: 1px #ccc;
  }
 
 	 #nav_bar nav a {
@@ -134,7 +175,7 @@ padding: 85px 0 25px;
 		 text-transform: uppercase;
 		 color: black;
 		 text-align: center;
-		 border-right: 1px solid #ccc;
+		 border-right: 1px #ccc;
 		 text-decoration: none;
 		 font: 15px "Trebuchet MS", Arial, sans-serif;
 	 }
@@ -156,7 +197,7 @@ padding: 85px 0 25px;
 		 background: linear-gradient(to bottom,  rgba(0,0,0,1) 0%,rgba(71,71,71,1) 28%,rgba(81,81,81,1) 35%,rgba(71,71,71,1) 72%,rgba(43,43,43,1) 87%,rgba(28,28,28,1) 91%,rgba(0,0,0,1) 100%); /* W3C */
 	 }
 
-   /* social bar*/
+   /* social bar */
 	 #social {
 	 	position: fixed;
 	 	top: 200px;
@@ -184,14 +225,39 @@ padding: 85px 0 25px;
 
 
 		/********** Details *********/
+		#details {
+			clear:both;
+			padding: 0px 0px 250px 0px;
+			/* gradient */
+			background: rgb(229,229,229); /* Old browsers */
+			background: -moz-linear-gradient(top,  rgba(229,229,229,1) 0%, rgba(255,255,255,1) 99%); /* FF3.6+ */
+			background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(229,229,229,1)), color-stop(99%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
+			background: -webkit-linear-gradient(top,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 99%); /* Chrome10+,Safari5.1+ */
+			background: -o-linear-gradient(top,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 99%); /* Opera 11.10+ */
+			background: -ms-linear-gradient(top,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 99%); /* IE10+ */
+			background: linear-gradient(to bottom,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 99%); /* W3C */
+		}
+
+			#details a:link, #details a:visited {
+				color: black;
+				text-decoration: none;
+			}
+
+			#details a:hover, #details a:active {
+				text-decoration: underline;
+			}
+
 
 		/********** Footer **********/
 
 		footer {
 			text-align: center;
-			font-size: 10px;
+			font-size: 20px;
 			color: #555;
-			padding: 10px 0 20px;
+			padding:10px 0px 0px 0px;
+			background-color: lightgray;
+			border-top: 3px solid white;
+			height: 100px;
 		}
 
 			footer a {
