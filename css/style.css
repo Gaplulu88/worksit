@@ -45,11 +45,11 @@ h4 {
  }
 
 p {
-  color: black;
+  color: ivory;
   font-size: 1.75em;
   line-height: 1.25em;
   font-family: 'Clicker+Script';
-	padding-bottom:200px;
+	padding-bottom:50px;
 	padding-left: 20px;
 	padding-right: 200px;
 }
@@ -77,7 +77,8 @@ figcaption{/*
   color: royalblue;
 	text-align: left;
 	margin-top: 75px;
-	margin-bottom: -0px;}
+	margin-bottom: -0px;
+	}
 
 .milk-bone {/*select elements with class="milk-text" */
 	  font: bold 4.6em 'Elsie Swash Caps', cursive;
@@ -116,7 +117,8 @@ figcaption{/*
 	  font-family: 'Vollkorn';
 		padding-bottom: -400px 0px;
 	 }
-	 .wrapper2 {
+
+.wrapper2 {
 	   margin: 0 auto;
 	   width: 60%;
 	   padding-bottom: 40px;
@@ -126,27 +128,48 @@ figcaption{/*
 	padding: 25px 100px;
 }
 /*id selector (apply to one element per page) */
+
 #logo{/* select elements with id="logo" */
 padding: 85px 0 25px;
 }
+
 #content{
-  margin-top: -10em;
-	padding: 20px;
-  background: rgba(255,255,255,.85);
+	padding: 0px;
+	margin: 0 auto;
+	width: 70%;
+	padding-bottom: 20px;
 }
 
+#page1 {
+		background: url(/Users/greg/.atom/code/labs/worksit/images/IMG_9681.jpg);
+		background-repeat: no-repeat;
+		background-position: right;
+}
+#page2 {
+		background-color: deepskyblue;
+		margin-top: 0px;
+}
+#page3 {
+		background: red;
+}
+#page4 {
+	background: orange;
+
+}
 
  body.space {
 	background-color: deepskyblue;
  }
  body.about {
-	 background: url(/Users/greg/.atom/code/labs/worksit/images/IMG_9676.jpg);
+	 background: url(/Users/greg/.atom/code/labs/worksit/images/IMG_9681.jpg);
+	 background-repeat: no-repeat;
+	 background-position: right;
  }
  body.contact {
 	 background: orange;
  }
  body.bookings {
-	 background: yellow;
+	 background: red;
  }
 
 
@@ -158,7 +181,7 @@ padding: 85px 0 25px;
  	width: 100%;
  	z-index: 1;
  	background: url(../images/header-fade.gif);
-	background-color: mediumpurple;
+	background-color: white;
  	border-bottom: 1px solid #ccc;
  	text-align: center;
  }
@@ -177,7 +200,7 @@ padding: 85px 0 25px;
 		 text-align: center;
 		 border-right: 1px #ccc;
 		 text-decoration: none;
-		 font: 15px "Trebuchet MS", Arial, sans-serif;
+		 font: 15px "Times New Roman", Arial, sans-serif;
 	 }
 
 	 #nav_bar nav a.selected {
@@ -203,22 +226,36 @@ padding: 85px 0 25px;
 	 	top: 200px;
 	 	right: 3px;
 	 	width: 60px;
-	 	z-index: 1;
+	 	z-index: 2;
 	 }
 
-	 	a.insta {
+	 a.insta {
+	 	display: block;
+	 	width: 40px;
+	 	height:40px;
+	 	text-indent: 100%;
+	 	white-space: nowrap;
+	 	overflow: hidden;
+	 	background: url(/Users/greg/.atom/code/labs/worksit/images/IMG_9676.jpg) no-repeat;
+	 }
+
+	 a.insta { background-position: 0 -200px; }
+	 a.insta:hover { background-position: -40px -200px; }
+	 a.insta:active { background-position: -80px -200px; }
+
+		a.twitt {
 	 		display: block;
 	 		width: 40px;
 	 		height:40px;
 	 		text-indent: 100%;
 	 		white-space: nowrap;
 	 		overflow: hidden;
-	 		background: url(/Users/greg/.atom/code/labs/worksit/images/1476772098_instagram_online_social_media_photo.png) no-repeat;
+	 		background: url(/Users/greg/.atom/code/labs/worksit/images/IMG_9676.jpg) no-repeat;
 	 	}
 
-	 	a.insta { background-position: 0 0px; }
-	 	a.insta:hover { background-position: -40px 0px; }
-	 	a.insta:active { background-position: -80px 0px; }
+	 	a.twitt { background-position: 0 -120px; }
+	 	a.twitt:hover { background-position: -40px -120px; }
+	 	a.twitt:active { background-position: -80px -120px; }
 
 		/********** Sections **********/
 
