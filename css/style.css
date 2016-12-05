@@ -2,12 +2,18 @@
 @import url(https://fonts.googleapis.com/css?family=Clicker+Script);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 @import url(https://fonts.googleapis.com/css?family=Vollkorn);
-
+/* above is google fonts, for additional cool fonts */
 
 /* this is a comment */
-/* selector {
-property: value;
-}
+/* selector { property: value; }*/
+/* selectors---type p{..} Id #box{..} Class .thick {...} Compound h1, h2, #box {..} */
+/* Type Selector    p(..)-- selects all elements with matching selector name */
+/* Id Selector(deals with single element)    #box-- selects all elements with an id attribute value matching the selector name. <div id="box"> */
+/* Class Selector(spread thruout page among many elements)    .thick -- selects all elements with a class attribute value matching the selector name. <span class="thick"> */
+/* CompoundSelector    h1 h2 #box-- selects all matched elements in the compound set. */
+
+
+
 
 /* scale all images, and media to accomodate responsive layout. */
 img, video, audio, iframe, table, form {
@@ -61,7 +67,7 @@ s {
 	font-family: 'Clicker+Script';
 }
 
-figcaption{/*
+figcaption{
   font-weight: normal;
   font-size: .75em;
   line-height: 1.5em;
@@ -126,57 +132,62 @@ figcaption{/*
 	   padding-bottom: 40px;
 	 }
 
-#big {
-	padding: 25px 100px;
-}
+/* class selector for body, creating background */
+body.space {
+	  background-color: deepskyblue;
+	 }
+body.about {
+	 	background: url(/Users/greg/.atom/code/labs/worksit/images/IMG_9681.jpg);
+	 	background-repeat: no-repeat;
+	 	background-position: right;
+	 }
+body.contact {
+	 	background: orange;
+	 }
+
+body.bookings {
+	 	background: red;
+	 }
+
+
+
+
+
 /*id selector (apply to one element per page) */
+	#big {
+	padding: 25px 100px;
+	}
 
-#logo{/* select elements with id="logo" */
-padding: 85px 0 25px;
-}
+	#logo{/* select elements with id="logo" */
+	padding: 85px 0 25px;
+	}
 
-#content{
-	padding: 0px;
+	#content{
+	padding: 0px 0px 40px 0px;
 	margin: 0 auto;
-	width: 90%;
-	padding-bottom: 20px;
-}
+	width: 100%;
+	height: auto;
+  }
 
-#About {
+	#About {
 		background: url(/Users/greg/.atom/code/labs/worksit/images/IMG_9681.jpg);
 		background-repeat: no-repeat;
 		background-position: right;
 }
-#Space {
+	#Space {
 		background-color: deepskyblue;
 		margin-top: 0px;
 }
-#Bookings {
+	#Bookings {
 		background: red;
 }
-#Contact {
+	#Contact {
 	background: orange;
 
 }
 
- body.space {
-	background-color: deepskyblue;
- }
- body.about {
-	 background: url(/Users/greg/.atom/code/labs/worksit/images/IMG_9681.jpg);
-	 background-repeat: no-repeat;
-	 background-position: right;
- }
- body.contact {
-	 background: orange;
- }
- body.bookings {
-	 background: red;
- }
-
-
-	/********** Nav Bar **********/
- #nav_bar {
+	/********** Id Selector for Nav Bar **********/
+ 	#nav_bar {
  	position: fixed;
  	top: 0;
  	left: 0;
@@ -186,15 +197,15 @@ padding: 85px 0 25px;
 	background-color: white;
  	border-bottom: 2px solid #ccc;
  	text-align: center;
- }
+ 	}
 
- #nav_bar nav {
+ 	 #nav_bar nav {
 	 border-left: 1px #ccc;
- }
+ 		}
 
 	 #nav_bar nav a {
 		 display: inline-block;
-		 width: 20%;
+		 width: 15%;
 		 margin: 0;
 		 padding: 12px 0;
 		 text-transform: uppercase;
@@ -202,13 +213,13 @@ padding: 85px 0 25px;
 		 text-align: center;
 		 border-right: 1px #ccc;
 		 text-decoration: none;
-		 font: 15px "Times New Roman", Arial, sans-serif;
-	 }
+		 font: 15px "Open+Sans", Arial, sans-serif;
+	 	}
 
 	 #nav_bar nav a.selected {
 		 background: black;
 		 color: white;
-	 }
+	 	}
 
 	 #nav_bar nav a:hover {
 		 color:white;
@@ -220,17 +231,18 @@ padding: 85px 0 25px;
 		 background: -o-linear-gradient(top,  rgba(0,0,0,1) 0%,rgba(71,71,71,1) 28%,rgba(81,81,81,1) 35%,rgba(71,71,71,1) 72%,rgba(43,43,43,1) 87%,rgba(28,28,28,1) 91%,rgba(0,0,0,1) 100%); /* Opera 11.10+ */
 		 background: -ms-linear-gradient(top,  rgba(0,0,0,1) 0%,rgba(71,71,71,1) 28%,rgba(81,81,81,1) 35%,rgba(71,71,71,1) 72%,rgba(43,43,43,1) 87%,rgba(28,28,28,1) 91%,rgba(0,0,0,1) 100%); /* IE10+ */
 		 background: linear-gradient(to bottom,  rgba(0,0,0,1) 0%,rgba(71,71,71,1) 28%,rgba(81,81,81,1) 35%,rgba(71,71,71,1) 72%,rgba(43,43,43,1) 87%,rgba(28,28,28,1) 91%,rgba(0,0,0,1) 100%); /* W3C */
-	 }
+	 	}
 
-   /* social bar */
+   /* ID selector for social media icons */
 	 #social {
 	 	position: fixed;
 	 	top: 200px;
 	 	right: 3px;
 	 	width: 60px;
 	 	z-index: 2;
-	 }
+	 	}
 
+	 /*class selector for social media icons*/
 	 a.insta {
 	 	display: block;
 	 	width: 40px;
@@ -239,7 +251,7 @@ padding: 85px 0 25px;
 	 	white-space: nowrap;
 	 	overflow: hidden;
 	 	background: url(/Users/greg/.atom/code/labs/worksit/images/IMG_9676.jpg) no-repeat;
-	 }
+	 	}
 
 	 a.insta { background-position: 0 -200px; }
 	 a.insta:hover { background-position: -40px -200px; }
@@ -253,17 +265,17 @@ padding: 85px 0 25px;
 	 		white-space: nowrap;
 	 		overflow: hidden;
 	 		background: url(/Users/greg/.atom/code/labs/worksit/images/IMG_9676.jpg) no-repeat;
-	 	}
+	 		}
 
 	 	a.twitt { background-position: 0 -120px; }
 	 	a.twitt:hover { background-position: -40px -120px; }
 	 	a.twitt:active { background-position: -80px -120px; }
 
-		/********** Sections **********/
 
 
 
-		/********** Details *********/
+
+		/********** Id selectors for Details *********/
 		#details {
 			clear:both;
 			padding: 0px 0px 250px 0px;
@@ -275,7 +287,7 @@ padding: 85px 0 25px;
 			background: -o-linear-gradient(top,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 99%); /* Opera 11.10+ */
 			background: -ms-linear-gradient(top,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 99%); /* IE10+ */
 			background: linear-gradient(to bottom,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 99%); /* W3C */
-		}
+			}
 
 			#details a:link, #details a:visited {
 				color: black;
@@ -297,18 +309,9 @@ padding: 85px 0 25px;
 			background-color: lightgray;
 			border-top: 3px solid white;
 			height: 100px;
-		}
+		  }
 
-			footer a {
+		footer a {
 				color: #555;
 				text-decoration: underline;
-			}
-
-
-
-
-
-
-
-/*descendant selector*/
-/*psuedo selector*/
+		  }
