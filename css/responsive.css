@@ -20,7 +20,51 @@
 }
 
 @media only screen and (max-width: 850px) {
-		body{
+		body {
 			font-size: 85%;
 		}
-		
+
+		footer {
+			font-size: 18px;
+		}
+	}
+@media only screen and (max-width: 750px) {
+		#nav_bar nav a {
+			display: none;
+		}
+		#nav_bar nav a.menu-icon {
+			display: block;
+			float: center;
+			font-size: 2.0em;
+			padding: 10px 20px;
+			width: auto;
+		}
+		#social {
+			right: 10%;
+			top: 15%;
+		}
+		footer {
+			font-size: 14px;
+		}
+		.milk-bone {
+			padding-top:45px;
+		}
+
+}
+
+@media only screen and (max-width: 585px) {
+		#social {
+		display: inline-block;
+		right: 10%;
+		top: 45%;
+	}
+		#About {
+			background: blue;
+		}
+		body {
+			font-size: 65%;
+		}
+		footer {
+			font-size: 12px;
+		}
+}
