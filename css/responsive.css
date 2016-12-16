@@ -1,0 +1,26 @@
+
+/*** responsive device styles ***/
+@media only screen and (max-width: 1000px) {
+
+	.wrapper {
+		width: 90%;
+	}
+
+	#social {
+		position: absolute;
+		top: 60px;
+		right: 25%;
+		width: auto;
+	}
+
+	#social a {
+		display: inline-block;
+	}
+
+}
+
+@media only screen and (max-width: 850px) {
+		body{
+			font-size: 85%;
+		}
+		
