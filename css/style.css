@@ -77,6 +77,33 @@ figcaption{
   text-align: right;
 }
 
+input, textarea {
+  display: block;
+	width: 100%;
+  padding-left: 5px;
+  margin-bottom: 5px;
+  box-shadow: 0 3px 5px #ccc;
+  border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+  margin-top: 5px;
+  width: 100px;
+  background: black;
+  color: white;
+  border-radius: 25px;
+  border: 0;
+}
+
+input[type="submit"]:hover {
+  background: #555;
+}
+
+form {
+	padding-left: 120px;
+	padding-right: 500px;
+	padding-bottom: 50px;
+}
 /* class selector applied to as many elements as you like */
 .milk-text {/*select elements with class="milk-text" */
   font: bold 4.6em 'Elsie Swash Caps', cursive;
@@ -119,10 +146,10 @@ figcaption{
 }
 
 .hello {
-		color: black;
-		font-size: 1.50em;
+		color: white;
+		font-size: 1.75em;
 		line-height: 1.25em;
-	  font-family: 'Elsie Swash Caps' cursive;
+	  font-family: 'Clicker + Script';
 		padding-bottom: -400px 0px;
 	 }
 
