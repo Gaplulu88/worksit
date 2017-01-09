@@ -54,9 +54,11 @@
 
 @media only screen and (max-width: 585px) {
 		#social {
-		display: inline-block;
-		right: 10%;
-		top: 45%;
+			position: fixed;
+		 	top: 200px;
+		 	right: 3px;
+		 	width: 60px;
+		 	z-index: 2;
 	}
 		#About {
 			background: blue;
