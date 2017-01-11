@@ -55,7 +55,7 @@ p {
   font-size: 1.75em;
   line-height: 1.25em;
   font-family: 'Clicker+Script';
-	padding-bottom: 50px;
+	padding-bottom: 30px;
 	padding-left: 20px;
 	padding-right: 50px;
 }
@@ -104,21 +104,44 @@ form {
 	padding-right: 500px;
 	padding-bottom: 50px;
 }
+
+ul {
+	padding-left: 50px;
+}
+
 /* class selector applied to as many elements as you like */
+
+.figcaption {
+  font-weight: normal;
+  font-size: 1.5em;
+  line-height: 1.75em;
+  font-family: Georgia;
+  color: black;
+  text-align: center;
+}
+
 .milk-text {/*select elements with class="milk-text" */
   font: bold 4.6em 'Elsie Swash Caps', cursive;
-  color: royalblue;
+  color: mediumblue;
 	text-align: left;
 	margin-top: 50px;
-	margin-bottom: -10px;
+	margin-bottom: -25px;
 	}
+
+.milk-ball {/*select elements with class="milk-text" */
+	 	font: bold 4.6em 'Elsie Swash Caps', cursive;
+	  color: mediumblue;
+		text-align: left;
+		margin-top: 50px;
+		margin-bottom: -10px;
+		}
 
 .milk-bone {/*select elements with class="milk-bone" */
 	  font: bold 4.6em 'Elsie Swash Caps', cursive;
-	  color: royalblue;
+	  color: mediumblue;
 		text-align: left;
 		margin-top: 35px;
-		margin-bottom: -10px;
+		margin-bottom: -25px;
 		padding-top: 20px;
 		padding-bottom: 0px;
 	}
@@ -169,11 +192,11 @@ body.about {
 	 	background-position: right;
 	 }
 body.contact {
-	 	background: orange;
+	 	background: cornflowerblue;
 	 }
 
 body.bookings {
-	 	background: red;
+	 	background: steelblue;
 	 }
 
 
@@ -196,6 +219,15 @@ body.bookings {
 	height: auto;
   }
 
+	#contentsix{
+	padding: 	0px 400px 10px 400px;
+	margin: 0 auto;
+	width: 100%;
+	height: auto;
+	}
+
+
+
 	#About {
 		background: url(/Users/greg/.atom/code/labs/worksit/images/IMG_9681.jpg);
 		background-repeat: no-repeat;
@@ -209,7 +241,7 @@ body.bookings {
 		background: red;
 }
 	#Contact {
-	background: orange;
+		background: #800000;
 
 }
 
