@@ -36,8 +36,8 @@ margin-bottom: 5px;
 
 h4 {
 	color: black;
-	font-size: 1.0em;
-	line-height: 1.0em;
+	font-size: 1.10em;
+	line-height: 1.00em;
 	font-family: 'Open+Sans';
 	padding-bottom: 150px;
 }
@@ -110,16 +110,17 @@ ul {
 }
 
  th {
+	 padding-top: 20px;
 	 padding-right: 10px;
 	 padding-left: 10px;
  }
 /* class selector applied to as many elements as you like */
 
 .figcaption {
-	font-size: 1.75em;
-  line-height: 1.25em;
+	font-size: 1.35em;
+  line-height: 1.15em;
   font-family: 'Clicker+Script';
-	margin-top: 10px;
+	margin-top: 0px;
 	margin-bottom: 10px;
 	padding-top: 10px;
 	padding-bottom: 20px;
