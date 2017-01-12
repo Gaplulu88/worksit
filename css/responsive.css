@@ -1,7 +1,6 @@
 
 /*** responsive device styles ***/
 @media only screen and (max-width: 1000px) {
-
 	.wrapper {
 		width: 90%;
 	}
@@ -17,6 +16,11 @@
 		display: inline-block;
 	}
 
+	form {
+		padding-left: 120px;
+		padding-right: 150px;
+		padding-bottom: 50px;
+	}
 }
 
 @media only screen and (max-width: 850px) {
@@ -27,8 +31,22 @@
 		footer {
 			font-size: 18px;
 		}
+
+		form {
+			padding-left: 120px;
+			padding-right: 100px;
+			padding-bottom: 50px;
+		}
 	}
-@media only screen and (max-width: 750px) {
+
+	#contentsix {
+	padding: 	0px 100px 10px 100px;
+	margin: 0 auto;
+	width: 100%;
+	height: auto;
+}
+
+@media only screen and (max-width: 775px) {
 		#nav_bar nav a {
 			display: none;
 		}
@@ -40,8 +58,8 @@
 			width: auto;
 		}
 		#social {
-			right: 10%;
-			top: 15%;
+			right: 25%;
+			top: 12%;
 		}
 		footer {
 			font-size: 14px;
@@ -52,7 +70,7 @@
 
 }
 
-@media only screen and (max-width: 585px) {
+@media only screen and (max-width: 650px) {
 		#social {
 			position: fixed;
 		 	top: 200px;
@@ -68,5 +86,16 @@
 		}
 		footer {
 			font-size: 12px;
+		}
+		form {
+			padding-left: 50px;
+			padding-right: 75px;
+			padding-bottom: 50px;
+		}
+		#contentsix {
+		padding: 	0px 20px 10px 200px;
+		margin: 0 auto;
+		width: 100%;
+		height: auto;
 		}
 }

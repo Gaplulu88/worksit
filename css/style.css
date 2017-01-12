@@ -109,13 +109,21 @@ ul {
 	padding-left: 50px;
 }
 
+ th {
+	 padding-right: 10px;
+	 padding-left: 10px;
+ }
 /* class selector applied to as many elements as you like */
 
 .figcaption {
-  font-weight: normal;
-  font-size: 1.5em;
-  line-height: 1.75em;
-  font-family: Georgia;
+	font-size: 1.75em;
+  line-height: 1.25em;
+  font-family: 'Clicker+Script';
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	font-weight: normal;
   color: black;
   text-align: center;
 }
@@ -220,7 +228,7 @@ body.bookings {
   }
 
 	#contentsix{
-	padding: 	0px 400px 10px 400px;
+	padding: 	0px 0px 0px 0px;
 	margin: 0 auto;
 	width: 100%;
 	height: auto;
