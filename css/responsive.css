@@ -21,8 +21,8 @@
 		padding-right: 150px;
 		padding-bottom: 50px;
 	}
-}
 
+}
 @media only screen and (max-width: 850px) {
 		body {
 			font-size: 85%;
@@ -37,7 +37,7 @@
 			padding-right: 100px;
 			padding-bottom: 50px;
 		}
-	}
+
 
 	#contentsix {
 	padding: 	0px 100px 10px 100px;
@@ -45,11 +45,12 @@
 	width: 100%;
 	height: auto;
 }
-
+}
 @media only screen and (max-width: 775px) {
 		#nav_bar nav a {
 			display: none;
 		}
+
 		#nav_bar nav a.menu-icon {
 			display: block;
 			float: center;
@@ -78,6 +79,7 @@
 		 	width: 60px;
 		 	z-index: 2;
 	}
+
 		#About {
 			background: blue;
 		}

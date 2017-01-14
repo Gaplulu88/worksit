@@ -52,7 +52,7 @@ h4 {
  }
 
 p {
-  color: ivory;
+  color: #fffff0;
   font-size: 1.75em;
   line-height: 1.25em;
   font-family: 'Clicker+Script';
@@ -66,16 +66,6 @@ s {
 	font-size: 1.75em;
 	line-height: 1.25em;
 	font-family: 'Clicker+Script';
-}
-
-figcaption{
-  font-weight: normal;
-  font-size: .75em;
-  line-height: 1.5em;
-  font-family: Georgia;*/
-  font: normal .75em/1.5em Georgia;
-  color: ffff00;
-  text-align: right;
 }
 
 input, textarea {
@@ -112,19 +102,23 @@ ul {
 
  th {
 	 padding-top: 20px;
-	 padding-right: 10px;
-	 padding-left: 10px;
+	 padding-right: 70px;
+	 padding-left: 50px;
+	 margin-right: 50px;
+	 margin-left: 50px;
  }
 /* class selector applied to as many elements as you like */
 
 .figcaption {
-	font-size: 1.35em;
+	font-size: 1.15em;
   line-height: 1.15em;
   font-family: 'Clicker+Script';
 	margin-top: 0px;
 	margin-bottom: 10px;
 	padding-top: 10px;
 	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
 	font-weight: normal;
   color: black;
   text-align: center;
@@ -132,7 +126,7 @@ ul {
 
 .milk-text {/*select elements with class="milk-text" */
   font: bold 4.6em 'Elsie Swash Caps', cursive;
-  color: mediumblue;
+  color: #0000cd;
 	text-align: left;
 	margin-top: 50px;
 	margin-bottom: -25px;
@@ -140,7 +134,7 @@ ul {
 
 .milk-ball {/*select elements with class="milk-text" */
 	 	font: bold 4.6em 'Elsie Swash Caps', cursive;
-	  color: mediumblue;
+	  color: #0000cd;
 		text-align: left;
 		margin-top: 50px;
 		margin-bottom: -10px;
@@ -148,7 +142,7 @@ ul {
 
 .milk-bone {/*select elements with class="milk-bone" */
 	  font: bold 4.6em 'Elsie Swash Caps', cursive;
-	  color: mediumblue;
+	  color: #0000cd;
 		text-align: left;
 		margin-top: 35px;
 		margin-bottom: -25px;
@@ -183,7 +177,7 @@ ul {
 		font-size: 1.75em;
 		line-height: 1.25em;
 	  font-family: 'Clicker + Script';
-		padding-bottom: -400px 0px;
+		padding-bottom: 0px;
 	 }
 
 .wrapper2 {
@@ -194,7 +188,7 @@ ul {
 
 /* class selector for body, creating background */
 body.space {
-	  background-color: deepskyblue;
+	  background-color: #00bfff;
 	 }
 body.about {
 	 	background: url(/Users/greg/.atom/code/labs/worksit/images/IMG_9681.jpg);
@@ -202,15 +196,12 @@ body.about {
 	 	background-position: right;
 	 }
 body.contact {
-	 	background: cornflowerblue;
+	 	background: #6495ed;
 	 }
 
 body.bookings {
 	 	background: #0066ff;
 	 }
-
-
-
 
 
 /*id selector (apply to one element per page) */
@@ -244,11 +235,11 @@ body.bookings {
 		background-position: right;
 }
 	#Space {
-		background-color: deepskyblue;
+		background-color: #00bFFF;
 		margin-top: 0px;
 }
 	#Bookings {
-		background: red;
+		background: #ff0000;
 }
 	#Contact {
 		background: #800000;
@@ -378,7 +369,7 @@ body.bookings {
 			font-size: 20px;
 			color: #555;
 			padding:10px 0px 0px 0px;
-			background-color: lightgray;
+			background-color: #d3d3d3;
 			border-top: 3px solid white;
 			height: 100px;
 		  }
