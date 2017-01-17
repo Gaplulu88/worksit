@@ -107,6 +107,7 @@ ul {
  }
 /* class selector applied to as many elements as you like */
 
+
 .figcaption {
 	font-size: 1.0em;
   line-height: 1.25em;
@@ -223,8 +224,6 @@ body.bookings {
 	height: auto;
 	}
 
-
-
 	#About {
 		background: url(/Users/greg/.atom/code/labs/worksit/images/IMG_9681.jpg);
 		background-repeat: no-repeat;
@@ -294,16 +293,24 @@ body.bookings {
 		}
    /* ID selector for social media icons */
 	 #social {
-	 	position: fixed;
-	 	top: 200px;
-	 	right: 3px;
-	 	width: 60px;
+		position: absolute;
+	 	top: 60px;
+	 	right: 150px;
+	 	width: auto;
 	 	z-index: 2;
 	 	}
 
+		#social a {
+		  display: inline-block;
+		  width: 40px;
+		  height: 40px;
+			top: 60px;
+		 	right: 150px;
+		}
+
 	 /*class selector for social media icons*/
 	 a.insta {
-	 	display: block;
+		diplay: block;
 	 	width: 40px;
 	 	height:40px;
 	 	text-indent: 100%;
