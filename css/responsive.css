@@ -66,7 +66,7 @@
 			display: block;
 			float: center;
 			font-size: 1.75em;
-			padding: 5px 5px;
+			padding: 5px 0px 0px 0px;
 			width: auto;
 		}
 
@@ -81,7 +81,8 @@
 		}
 
 		footer {
-			font-size: 14px;
+			font-size: 16px;
+			height: 100%;
 		}
 
 		.milk-bone {
@@ -100,6 +101,18 @@
 }
 
 @media only screen and (max-width: 650px) {
+	#nav_bar nav a {
+		display: none;
+	}
+
+	#nav_bar nav a.menu-icon {
+		display: block;
+		float: center;
+		font-size: 2.0em;
+		padding: 3px 0px 0px 0px;
+		width: auto;
+	}
+
 		#social {
 			position: absolute;
 		 	top: 12%;
@@ -114,29 +127,58 @@
 			background: blue;
 		}
 
+		th {
+			padding-right: 0px;
+			padding-left: 0px;
+			padding-top: 10px;
+		}
+
 		body {
-			font-size: 55%;
+			font-size: 70%;
 		}
 
 		footer {
-			font-size: 12px;
+			font-size: 15px;
+			height: 100%;
 		}
 
 		form {
-			padding-left: 50px;
-			padding-right: 75px;
-			padding-bottom: 50px;
+			padding-left: 80px;
+			padding-right: 60px;
+			padding-bottom: 30px;
+		}
+
+		.figcaption {
+			font-size: 1.15em;
+			line-height: 1.15em;
 		}
 
 		#contentsix {
-		padding: 	0px 20px 10px 200px;
+		padding: 	0px 20px 20px 20px;
 		margin: 0 auto;
 		width: 100%;
 		height: auto;
 		}
 
 		.hello {
-			font-size: 1.50em;
-			line-height: 1.15em;
+			font-size: 1.75em;
+			line-height: 1.25em;
 		}
+}
+
+		@media only screen and (max-width: 500px) {
+				#social {
+					position: absolute;
+				 	top: 10%;
+				 	right: 5%;
+			}
+
+				#social a {
+				display: inline-block;
+			}
+
+			footer {
+				font-size: 14px;
+				height: 75%;
+			}
 }

@@ -294,7 +294,7 @@ body.bookings {
 		}
    /* ID selector for social media icons */
 	 #social {
-		position: fixed;
+		position: absolute;;
 	 	top: 60px;
 	 	right: 150px;
 	 	width: auto;
